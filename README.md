@@ -1,4 +1,4 @@
-Belly Button Biodiversity
+# Belly Button Biodiversity
 
 A dashboard that explores the biodiversity of the human belly button also catalogs the microbes that inhabit the naval of humans.
 
@@ -6,13 +6,13 @@ This dataset consisted of 661 participants, on average they scrubbed their belly
 (also called operational taxonomic units, or OTUs). In this dataset, a small handful of OTUs were present in more than 70% of people, 
 while the rest were relatively rare.
 
-Technologies and Tools Used:
+# Technologies and Tools Used:
 D3.js: For reading the samples.json dataset and manipulating the DOM.
 Plotly.js: To create interactive visualizations, including a bar chart, bubble chart, and an optional gauge chart.
 HTML/CSS: For structuring and styling the dashboard's webpage.
 JavaScript: The primary programming language used for the web application's functionality.
 
-Dashboard Features:
+# Dashboard Features:
 A drop-down menu, demographic info panel, horizontal bar graph, gauge chart, and bubble chart.
 Repository Navigation:
 index.html: The main HTML document for the dashboard.
@@ -28,7 +28,7 @@ The gauge chart is generated when someone is selected from the drop-down. The va
 The bubble chart is generated when a test subject is selected on the drop menu. Each sample will be displayed as a bubble, where the larger the sample value is the larger the bubble size.
 On the chart, the x values are the otu_ids, and the y values are the sample_values. The colors of the bubbles are based on otu_ids, and the hover text is the otu_labels.
 
-Conclusions:
+# Conclusions:
 A significant portion of the microbial species found in human navels are common across a majority of the population.
 The diversity of rare microbes varies significantly between individuals, suggesting personalized microbial ecosystems.
 The dashboard effectively demonstrates the potential of interactive web visualizations in engaging users with complex datasets.
